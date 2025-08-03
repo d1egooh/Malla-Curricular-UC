@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Malla Curricular</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Mi Malla Curricular</h1>
+  <div class="semestre" id="semestre1">
+    <h2>Semestre 1</h2>
+    <div class="ramo aprobado" onclick="toggleEstado(this)">Cálculo I</div>
+    <div class="ramo pendiente" onclick="toggleEstado(this)">Álgebra</div>
+  </div>
+  <div class="semestre" id="semestre2">
+    <h2>Semestre 2</h2>
+    <div class="ramo cursando" onclick="toggleEstado(this)">Cálculo II</div>
+    <div class="ramo pendiente" onclick="toggleEstado(this)">Física I</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

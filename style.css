@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+.semestre {
+  margin-bottom: 30px;
+}
+
+.ramo {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  max-width: 200px;
+}
+
+.aprobado { background-color: green; }
+.cursando { background-color: orange; }
+.pendiente { background-color: gray; }
